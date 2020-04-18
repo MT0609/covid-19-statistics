@@ -1,0 +1,48 @@
+header{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 50px;
+}
+
+.global{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  .countries{
+    width: 70%;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .total{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: auto;
+  }
+  
+  .total .data{
+    margin-bottom: 10px;
+    background-color: lightyellow;
+  }
+  
+  #deaths {
+    border-bottom: 2px solid red;
+  }
+  #recovered {
+    border-bottom: 2px solid green;
+  }
+
+.VietnamData{
+    display: flex;
+}
+.VietnamData .total{
+    width: 20%;
+}
+.chart{
+    margin-left: 20px;
+    width: 70%;
+}

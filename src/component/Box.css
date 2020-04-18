@@ -1,0 +1,26 @@
+.country-box{
+    background-color: lavender;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.country-box img{
+    width: 30px;
+}
+
+.country-box span:first-child{
+    text-align: left;
+}
+.country-box span:last-child{
+    text-align: right;
+}
+
+.country-box .recover{
+    color: green;
+}
+.country-box .death{
+    color: red;
+}
