@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Statistics from './page/statistics/statistics';
 import Navbar from './component/navbar'
+import Advice from './page/advice/advice'
+import NeedtoKnow from './page/needtoknow/needtoknow'
 
 function App() {
   return (
@@ -17,11 +19,15 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Statistics} />
-          <Route path="/needtoknow"  />
-          <Route path="/advice" />
+          <Route path="/needtoknow" component={NeedtoKnow} />
+          <Route path="/advice" component={Advice} />
           
         </Switch>
       </div>
+      <footer>
+        <span>Hong Minh Thang - HCMUS K18</span>
+        <span>A project in Covid-19 pandemic</span>
+      </footer>
     </Router>
   );
 }
