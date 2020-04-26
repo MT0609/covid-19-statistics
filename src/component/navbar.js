@@ -10,19 +10,19 @@ const Navbar = () => {
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto ml-auto">
-                    <li class="nav-item active mr-5">
-                        <Link to='/'>STATISTICS</Link>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <Link to='/needtoknow'>NEED-TO-KNOW</Link>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <Link to='/advice'>ADVICE</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link to='/map'>MAP</Link>
-                    </li>
+                <ul class="navbar-nav mr-auto ml-auto text-warning">
+                        <Link to='/' style={{ textDecoration: 'none' }}>                    
+                            <li class="nav-item active mr-5 p-2">STATISTICS</li>
+                        </Link>
+                        <Link to='/needtoknow' style={{ textDecoration: 'none' }}>
+                            <li class="nav-item mr-5 p-2">NEED-TO-KNOW</li>
+                        </Link>
+                        <Link to='/advice' style={{ textDecoration: 'none' }}>
+                            <li class="nav-item mr-5 p-2">ADVICE</li>
+                        </Link>
+                        <Link to='/map' style={{ textDecoration: 'none' }}>
+                            <li class="nav-item p-2">MAP</li>
+                        </Link>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
