@@ -15,7 +15,7 @@ import WorldMap from './page/map/map';
 
 function App() {
   return (
-    <Router basename="/covid-19-statistics">
+    <Router>
       <div className="App">
         <Navbar />
         <Switch>
