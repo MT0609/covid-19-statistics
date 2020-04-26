@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/covid-19-statistics/static/css/main.5369f41c.chunk.css",
+    "main.js": "/covid-19-statistics/static/js/main.21d954ec.chunk.js",
+    "main.js.map": "/covid-19-statistics/static/js/main.21d954ec.chunk.js.map",
+    "runtime-main.js": "/covid-19-statistics/static/js/runtime-main.f5059b9d.js",
+    "runtime-main.js.map": "/covid-19-statistics/static/js/runtime-main.f5059b9d.js.map",
+    "static/js/2.87f93da0.chunk.js": "/covid-19-statistics/static/js/2.87f93da0.chunk.js",
+    "static/js/2.87f93da0.chunk.js.map": "/covid-19-statistics/static/js/2.87f93da0.chunk.js.map",
+    "index.html": "/covid-19-statistics/index.html",
+    "precache-manifest.3ab265563cd2423b7cb7b7c1bf5af18c.js": "/covid-19-statistics/precache-manifest.3ab265563cd2423b7cb7b7c1bf5af18c.js",
+    "service-worker.js": "/covid-19-statistics/service-worker.js",
+    "static/css/main.5369f41c.chunk.css.map": "/covid-19-statistics/static/css/main.5369f41c.chunk.css.map",
+    "static/js/2.87f93da0.chunk.js.LICENSE.txt": "/covid-19-statistics/static/js/2.87f93da0.chunk.js.LICENSE.txt",
+    "static/media/breathshortness.png": "/covid-19-statistics/static/media/breathshortness.5d6b67a5.png",
+    "static/media/fever.png": "/covid-19-statistics/static/media/fever.7ded61d4.png",
+    "static/media/homecare.png": "/covid-19-statistics/static/media/homecare.4d9e5edc.png",
+    "static/media/homecare2.png": "/covid-19-statistics/static/media/homecare2.db080224.png",
+    "static/media/homecare3.png": "/covid-19-statistics/static/media/homecare3.1f41160e.png",
+    "static/media/homecare4.png": "/covid-19-statistics/static/media/homecare4.362a7d07.png",
+    "static/media/homecare5.png": "/covid-19-statistics/static/media/homecare5.b3848d66.png",
+    "static/media/homecare6.png": "/covid-19-statistics/static/media/homecare6.71fc18b4.png",
+    "static/media/logo.svg": "/covid-19-statistics/static/media/logo.5d5d9eef.svg",
+    "static/media/protect.png": "/covid-19-statistics/static/media/protect.f8c5f6b7.png",
+    "static/media/protect2.png": "/covid-19-statistics/static/media/protect2.f3ba1098.png",
+    "static/media/protect3.png": "/covid-19-statistics/static/media/protect3.2bcf50cb.png",
+    "static/media/stress.jpg": "/covid-19-statistics/static/media/stress.028875c1.jpg",
+    "static/media/stress2.jpg": "/covid-19-statistics/static/media/stress2.13dab13e.jpg",
+    "static/media/virus.jpg": "/covid-19-statistics/static/media/virus.aa5e6c26.jpg",
+    "static/media/virus2.jpg": "/covid-19-statistics/static/media/virus2.71d4ff9b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5059b9d.js",
+    "static/js/2.87f93da0.chunk.js",
+    "static/css/main.5369f41c.chunk.css",
+    "static/js/main.21d954ec.chunk.js"
+  ]
+}
