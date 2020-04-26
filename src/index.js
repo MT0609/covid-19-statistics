@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Router } from "react-router";
-import { createBrowserHistory } from "history";
-
-const history = createBrowserHistory();
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <Router history={history}>
-  <App />
-</Router>,
+  <HashRouter>
+    <App />
+  </HashRouter>,
   document.getElementById('root')
 );
 
