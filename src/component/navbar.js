@@ -17,8 +17,11 @@ const Navbar = () => {
                     <li class="nav-item mr-5">
                         <Link to='/needtoknow'>NEED-TO-KNOW</Link>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mr-5">
                         <Link to='/advice'>ADVICE</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to='/map'>MAP</Link>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">

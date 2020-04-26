@@ -8,9 +8,10 @@ import {
   Link
 } from "react-router-dom";
 import Statistics from './page/statistics/statistics';
-import Navbar from './component/navbar'
-import Advice from './page/advice/advice'
-import NeedtoKnow from './page/needtoknow/needtoknow'
+import Navbar from './component/navbar';
+import Advice from './page/advice/advice';
+import NeedtoKnow from './page/needtoknow/needtoknow';
+import WorldMap from './page/map/map';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="/" exact component={Statistics} />
           <Route path="/needtoknow" component={NeedtoKnow} />
           <Route path="/advice" component={Advice} />
-          
+          <Route path="/map" component={WorldMap} />
         </Switch>
       </div>
       <footer>
