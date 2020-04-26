@@ -42,7 +42,7 @@ class VietNamStatistics extends React.Component{
     });
 
     chart = <Chart
-      width="90%"
+      width="100%"
       height="100%"
       chartType="LineChart"
       data={data}
@@ -78,22 +78,33 @@ class VietNamStatistics extends React.Component{
         var {VietNamTotal,VietNamTimeline} = this.state;
         return(
             <div className="VietnamData">
-                <div className="total">
-                    <div id="cases" className="data">
-                        <p>{VietNamTotal.cases}</p>
-                        <p>total cases</p>
-                    </div>
-                    <div id="deaths" className="data">
-                        <p>{VietNamTotal.deaths}</p>
-                        <p>total deaths</p>
-                    </div>
-                    <div id="recovered" className="data">
-                        <p>{VietNamTotal.recovered}</p>
-                        <p>total recovered</p>
-                    </div>
+              <h1>Vietnam Statistics</h1>
+              <div className='container-fluid'>
+                <div className='row'>
+                  <div className='col-3'>
+                      <div className="total">
+                        <div id="cases" className="data">
+                            <span>{VietNamTotal.cases}</span>
+                            <span>total cases</span>
+                        </div>
+                        <div id="deaths" className="data">
+                            <span>{VietNamTotal.deaths}</span>
+                            <span>total deaths</span>
+                        </div>
+                        <div id="recovered" className="data">
+                            <span>{VietNamTotal.recovered}</span>
+                            <span>total recovered</span>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div className='col-9'>
+                      <div className="chart">
+                        {this.VietnamTimelineChart(VietNamTimeline)}
+                      </div>
+                  </div>
                 </div>
-                <div className="chart">{this.VietnamTimelineChart(VietNamTimeline)}</div>
-                
+              </div>  
             </div>
         )
     }

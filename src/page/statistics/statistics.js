@@ -5,9 +5,8 @@ import './statistics.css'
 
 function Statistics(){
     return(
-        <div className="App">
+        <div className='statistics'>
             <header>COVID-19 RECORD</header>
-            <h1>Global Statistics</h1>
             <GlobalStatistics />
             <VietnamStatistics />
         </div>

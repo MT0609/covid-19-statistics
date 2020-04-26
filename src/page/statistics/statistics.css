@@ -1,48 +1,64 @@
+.statistics *{
+  text-align: center;
+}
+
 header{
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-    margin: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin: 50px;
 }
 
 .global{
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-  }
+  border-top: 6px solid darkviolet;
+  border-top-left-radius: 5%;
+  padding-top: 10px;
+}
   
-  .countries{
-    width: 70%;
-    height: 400px;
-    overflow-y: scroll;
-  }
-  
-  .total{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    margin-left: auto;
-  }
-  
-  .total .data{
-    margin-bottom: 10px;
-    background-color: lightyellow;
-  }
-  
-  #deaths {
-    border-bottom: 2px solid red;
-  }
-  #recovered {
-    border-bottom: 2px solid green;
-  }
+.countries{
+  border: 2px solid cornflowerblue;
+  height: 400px;
+  background-color: cornflowerblue;
+  overflow-y: scroll;
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+}
+
+.total .data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow;
+  margin-bottom: 5%;
+  line-height: 40px;
+}
+
+.total .data span:first-child{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#deaths {
+  border-bottom: 3px solid red;
+}
+#recovered {
+  border-bottom: 3px solid green;
+}
 
 .VietnamData{
-    display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  border-top: 6px solid darkviolet;
+  border-top-right-radius: 5%;
 }
-.VietnamData .total{
-    width: 20%;
+.VietnamData .total .data{
+  line-height: 50px;
 }
 .chart{
-    margin-left: 20px;
-    width: 70%;
+  width: 100%;
+  height: 100%;
 }

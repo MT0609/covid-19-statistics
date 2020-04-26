@@ -7,8 +7,23 @@ const NeedtoKnow = () => {
             <section>
                 <h2>What is COVID-19</h2>  
                 <p>Coronaviruses are a large family of viruses that cause respiratory infections. 
-    These can range from the common cold to more serious diseases.COVID-19 is a disease caused by a new form of coronavirus. 
+    These can range from the common cold to more serious diseases. COVID-19 is a disease caused by a new form of coronavirus. 
     It was first reported in December 2019 in Wuhan City in China.</p>
+            </section>
+
+            <section>
+                <h2>What does it look like?</h2>  
+                <p className='text-center'>These images are colorized and from electron microscropes</p>
+                <div className="container">
+                    <div className="row">
+                        <div className='col'> 
+                            <img src={require('../../image/virus2.jpg')} />
+                        </div>
+                        <div className='col'>                            
+                            <img src={require('../../image/virus.jpg')} />
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section className='symptoms'>

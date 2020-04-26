@@ -15,8 +15,8 @@ import WorldMap from './page/map/map';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router >
+      <div className="App">
         <Navbar />
         <Switch>
           <Route path="/" exact component={Statistics} />
