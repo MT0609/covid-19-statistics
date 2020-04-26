@@ -9,6 +9,7 @@
 
 .country-box img{
     width: 30px;
+    margin-right: 10px;
 }
 
 .country-box span:first-child{
@@ -23,4 +24,11 @@
 }
 .country-box .death{
     color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    .country-box{
+        display: flex;
+        flex-direction: column;
+    }
 }
