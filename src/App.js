@@ -16,7 +16,7 @@ import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename='/covid-19-statistics'>
+    <HashRouter basename='/'>
       <div className="App">
         <Navbar />
         <Switch>
