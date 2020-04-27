@@ -12,10 +12,11 @@ import Navbar from './component/navbar';
 import Advice from './page/advice/advice';
 import NeedtoKnow from './page/needtoknow/needtoknow';
 import WorldMap from './page/map/map';
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="App">
         <Navbar />
         <Switch>
@@ -29,7 +30,7 @@ function App() {
         <span>Hong Minh Thang - HCMUS K18</span>
         <span>A project in Covid-19 pandemic</span>
       </footer>
-    </Router>
+    </HashRouter>
   );
 }
 
