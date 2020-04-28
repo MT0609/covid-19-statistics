@@ -11,5 +11,10 @@ section{
 }
 
 h2{
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid black;
+}
+
+p{
+    font-size: large;
+    background-color: transparent;
 }

@@ -81,7 +81,7 @@ class VietNamStatistics extends React.Component{
               <h1>Vietnam Statistics</h1>
               <div className='container-fluid'>
                 <div className='row'>
-                  <div className='col-3'>
+                  <div className='col-12 col-md-3'>
                       <div className="total">
                         <div id="cases" className="data">
                             <span>{VietNamTotal.cases}</span>
@@ -98,7 +98,7 @@ class VietNamStatistics extends React.Component{
                       </div>
                   </div>
 
-                  <div className='col-9'>
+                  <div className='col-12 col-md-9'>
                       <div className="chart">
                         {this.VietnamTimelineChart(VietNamTimeline)}
                       </div>

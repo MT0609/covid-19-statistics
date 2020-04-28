@@ -38,14 +38,14 @@ class GlobalStatistics extends React.Component{
 
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className="col-9">
+                        <div className="col-12 col-md-9">
                              <div className="countries">
                                 {country.map((item,key) => <CountryBox key={key} flag={item.countryInfo.flag} country={item.country} cases={item.cases} recovered={item.recovered}
                                 deaths={item.deaths} todayCases={item.todayCases} todayDeaths={item.todayDeaths}/>)}
                             </div>
                         </div>
                         
-                        <div className="col-3">
+                        <div className="col-12 col-md-3">
                             <div className="total">
                                 <div id="cases" className="data">
                                     <span>{world.cases}</span>

@@ -16,10 +16,10 @@ const NeedtoKnow = () => {
                 <p className='text-center'>These images are colorized and from electron microscropes</p>
                 <div className="container">
                     <div className="row">
-                        <div className='col'> 
+                        <div className='col-sm-12 col-md-6'> 
                             <img src={require('../../image/virus2.jpg')} />
                         </div>
-                        <div className='col'>                            
+                        <div className='col-sm-12 col-md-6'>                            
                             <img src={require('../../image/virus.jpg')} />
                         </div>
                     </div>
@@ -31,15 +31,15 @@ const NeedtoKnow = () => {
                 <p>Symptoms of COVID-19 can range from mild illness to pneumonia. Some people will recover easily, and others may get very sick very quickly.</p>
                 <div className="container">
                     <div className="row">
-                        <div className='col'>
+                        <div className='col-sm-12 col-md-4'>
                             <img src={require('../../image/fever.png')} />
                             <p>FEVER</p>
                         </div>
-                        <div className='col'>
+                        <div className='col-sm-12 col-md-4'>
                             <img src={require('../../image/cough.png')} />
                             <p>COUGH</p>
                         </div>
-                        <div className='col'>
+                        <div className='col-sm-12 col-md-4'>
                             <img src={require('../../image/breathshortness.png')} />
                             <p>BREATH SHORTNESS</p>
                         </div>
