@@ -39,7 +39,7 @@ class GlobalStatistics extends React.Component{
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className="col-12 col-md-9">
-                             <div className="countries">
+                            <div className="countries">
                                 {country.map((item,key) => <CountryBox key={key} flag={item.countryInfo.flag} country={item.country} cases={item.cases} recovered={item.recovered}
                                 deaths={item.deaths} todayCases={item.todayCases} todayDeaths={item.todayDeaths}/>)}
                             </div>
@@ -66,6 +66,9 @@ class GlobalStatistics extends React.Component{
                             </div>
                         </div>
                     </div>
+                    <datalist id="inputCountries">
+                        {country.map((item, key) => <option value={item.country} key={key} />)}
+                    </datalist>
                 </div>
 
                
