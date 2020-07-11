@@ -5,18 +5,18 @@ class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          searchText: ""
+        //   searchText: ""
         };
-        this.searchRef = React.createRef();
+        // this.searchRef = React.createRef();
       }
 
-    changeSearchText = (e) => {
-        this.setState({ searchText: e.target.value})
-    }
+    // changeSearchText = (e) => {
+    //     this.setState({ searchText: e.target.value})
+    // }
 
-    clearAndFocus = () => {
-        this.searchRef.current.focus();
-    }
+    // clearAndFocus = () => {
+    //     this.searchRef.current.focus();
+    // }
 
     render(){
         return(
@@ -41,13 +41,7 @@ class Navbar extends React.Component {
                                 <li className="nav-item p-2">MAP</li>
                             </Link>
                     </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                        <input list="inputCountries" name="country" className="form-control mr-sm-2" value={this.searchText}
-                            ref={this.searchRef}
-                            onChange={this.changeSearchText}
-                            type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={this.clearAndFocus}>Search</button>
-                    </form>
+                    
                 </div>
             </nav>
         )

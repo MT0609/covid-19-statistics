@@ -53,10 +53,10 @@ const Advice = () => {
                 <h2>How to cope with stress during 2019-nCoV outbreak</h2>
                 <div className="container">
                     <div className="row">
-                        <div className='col-6'>
+                        <div className='col-12 col-lg-6'>
                             <img src={require('../../image/stress.jpg')} style={{width: "400px"}} />
                         </div>
-                        <div className='col-6'>
+                        <div className='col-12 col-lg-6'>
                             <img src={require('../../image/stress2.jpg')} style={{width: "400px"}} />
                         </div>
                     </div>
